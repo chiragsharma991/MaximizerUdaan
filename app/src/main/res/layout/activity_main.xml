@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        tools:context="udaan.mobilestyx.com.maximizerudaan.MainActivity">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/black">
+
+            <ImageView
+                android:id="@+id/jaguar_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:scaleType="fitStart"
+                android:src="@mipmap/jaguar"
+
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:background="@color/black"
+                android:drawableLeft="@drawable/login"
+                android:drawableStart="@drawable/login"
+                android:text="login"
+                android:textColor="@color/white" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:gravity="center|top"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="L O C A T E     R E T A I L E R"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="normal"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Please input the city of the current"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="normal"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="residence."
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="normal"
+
+                />
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#962c21"
+            android:clickable="false"
+            android:text="Search city to locate retailer"
+            android:textColor="@color/white"
+
+            />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/rectangle"
+            android:hint="ENTER CITY"
+            android:padding="10dp">
+
+        </EditText>
+
+        <requestFocus />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#962c21"
+            android:text="Continue"
+            android:textColor="@color/white"
+
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NOTE: You must be in possesion of the required"
+                android:textSize="12dp"
+                android:textStyle="normal"
+
+                />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="document in order to register your vehical in the selected"
+                   android:textStyle="normal"
+                   android:textSize="12dp"
+
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="city.Vehical will be handed over on the city of the retailer "
+                   android:textStyle="normal"
+                   android:textSize="12dp"
+
+                   />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="you select. "
+                android:textStyle="normal"
+                android:textSize="12dp"
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:orientation="vertical"
+            android:background="@color/black"
+            android:gravity="center_horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="J A G U A R"
+                android:textColor="#6d6d6d"
+                android:textSize="30dp"
+                android:padding="5dp"
+                android:textStyle="italic|bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Terms and conditions | Privacy Policy"
+                android:textColor="#6d6d6d"
+                android:textSize="12dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Powered by: Mobilestyx"
+                android:textColor="#6d6d6d"
+                android:textSize="12dp"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="right"
+                />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
