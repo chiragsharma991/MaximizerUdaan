@@ -99,7 +99,7 @@
             />
 
 
-        <EditText
+<!--        <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -107,7 +107,18 @@
             android:hint="ENTER CITY"
             android:padding="10dp">
 
-        </EditText>
+        </EditText>-->
+
+
+
+
+        <udaan.mobilestyx.com.maximizerudaan.CustomAutoCompleteTextView
+            android:id="@+id/atv_places"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:hint="@string/str_atv_places" />
+
 
         <requestFocus />
 
